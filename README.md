@@ -22,11 +22,11 @@ either using apt-get or brew (please don't ask about Windows).
 Everything. Kinda works right now but the neverending combination of 
 elements in GStreamer's pipelines makes it tough to make 'everything work'.
 The goal is to provide a thin layer that allows doing simple stuff, regardless
-of the platform it is running in.
+of the platform it is running on.
 
 ### Credits
 
-Written by Tomás Pollak.
+By Tomás Pollak.
 
 ### Copyright
 
