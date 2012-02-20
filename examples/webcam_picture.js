@@ -1,12 +1,13 @@
-var GStreamer = require('./..'),
+var Bagpipe = require('./..'),
 		path = require('path'),
 		file = process.argv[3] || path.join(process.env.HOME, 'Desktop', 'gst-picture.jpg');
 
-GStreamer.captureFrame('webcam', file, {width: 640, height: 480}, function(file){
-	if(file){
+Bagpipe.captureFrame('webcam', file, {width: 640, height: 480}, function(file){
+
+	if(file)
 		console.log("Picture taken: " + file);
 		// fs.unlink(file);
-	} else {
+	else
 		console.log("Picture NOT taken. Camera in use?");
-	}
+
 });

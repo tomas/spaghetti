@@ -1,6 +1,6 @@
-var GStreamer = require('./..');
+var Bagpipe = require('./..');
 
-GStreamer.streamVideo('webcam', {filters: ['videoflip method=horizontal-flip']}, function(success){
+Bagpipe.streamVideo('webcam', {filters: ['videoflip method=horizontal-flip']}, function(success){
 	if(success)
 		console.log('You should be seeing yourself in a mirror right now.');
 	else

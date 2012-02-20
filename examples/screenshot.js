@@ -1,8 +1,8 @@
-var GStreamer = require('./..'),
+var Bagpipe = require('./..'),
 		path = require('path'),
 		file = process.argv[3] || path.join(process.env.HOME, 'Desktop', 'gst-screenshot.jpg');
 
-GStreamer.captureFrame('desktop', file, {width: 640, height: 480}, function(file){
+Bagpipe.captureFrame('desktop', file, {width: 640, height: 480}, function(file){
 	if(file){
 		console.log("Picture taken: " + file);
 		// fs.unlink(file);
