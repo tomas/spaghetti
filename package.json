@@ -1,0 +1,11 @@
+{
+  "name": "gstreamer",
+  "description": "Wrapper around gst-launch for creating GStreamer pipelines",
+  "version": "0.1.0",
+  "repository": {
+    "type" : "git",
+    "url" : "git://github.com/tomas/node-gstreamer.git"
+  },
+  "author": "Tomás Pollak <tomas@forkhq.com>",
+  "main": "lib/gstreamer"
+}

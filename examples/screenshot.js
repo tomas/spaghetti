@@ -1,0 +1,12 @@
+var GStreamer = require('./..'),
+		path = require('path'),
+		file = process.argv[3] || path.join(process.env.HOME, 'Desktop', 'gst-screenshot.jpg');
+
+GStreamer.captureFrame('desktop', file, {width: 640, height: 480}, function(file){
+	if(file){
+		console.log("Picture taken: " + file);
+		// fs.unlink(file);
+	} else {
+		console.log("Picture NOT taken. Camera in use?");
+	}
+});
