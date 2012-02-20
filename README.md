@@ -10,12 +10,12 @@ stuff using this awesome multimedia library.
 Some stuff, like playing sounds and grabbing frames from different sources.
 If something doesn't work it's probably because you don't have the necessary
 plugins installed. Make sure you have the following packages on your system,
-either using apt-get or brew.
+either using apt-get or brew (please don't ask about Windows).
 
- gstreamer-plugins-base
- gstreamer-plugins-good
- gstreamer-plugins-bad
- gstreamer-plugins-ugly
+ - gstreamer-plugins-base
+ - gstreamer-plugins-good
+ - gstreamer-plugins-bad
+ - gstreamer-plugins-ugly
 
 ### TODO
 
