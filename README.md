@@ -1,4 +1,4 @@
-### Bagpipe
+### Spaghetti
 
 This is a simple wrapper around GStreamer's gst-launch binary which 
 attempts to abstract some of the complexity when creating pipelines.
