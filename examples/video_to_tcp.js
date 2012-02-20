@@ -1,9 +1,9 @@
-var Bagpipe = require('./..'),
+var Spaghetti = require('./..'),
 		path = require('path'),
 		encoder = process.argv[2] || 'vp8enc', // others include x264enc
 		port = process.argv[3] || "9000";
 
-Bagpipe.streamVideoWithAudio('webcam', {dest: 'localhost:' + port, encoder: encoder}, function(success){
+Spaghetti.streamVideoWithAudio('webcam', {dest: 'localhost:' + port, encoder: encoder}, function(success){
 	if(success)
 		console.log('Stream running on port ' + port);
 	else

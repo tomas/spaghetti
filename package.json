@@ -1,5 +1,5 @@
 {
-  "name": "bagpipe",
+  "name": "spaghetti",
   "description": "Wrapper around gst-launch for creating GStreamer pipelines",
   "version": "0.1.0",
   "repository": {
@@ -7,5 +7,5 @@
     "url" : "git://github.com/tomas/bagpipe.git"
   },
   "author": "Tomás Pollak <tomas@forkhq.com>",
-  "main": "./lib/bagpipe"
+  "main": "./lib/spaghetti"
 }

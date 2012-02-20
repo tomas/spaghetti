@@ -1,6 +1,6 @@
-var Bagpipe = require('./..');
+var Spaghetti = require('./..');
 
-Bagpipe.streamVideo('webcam', {filters: ['videoflip method=horizontal-flip']}, function(success){
+Spaghetti.streamVideo('webcam', {filters: ['videoflip method=horizontal-flip']}, function(success){
 	if(success)
 		console.log('You should be seeing yourself in a mirror right now.');
 	else
