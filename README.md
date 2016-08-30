@@ -12,10 +12,13 @@ If something doesn't work it's probably because you don't have the necessary
 plugins installed. Make sure you have the following packages on your system,
 either using apt-get or brew (please don't ask about Windows).
 
- - gstreamer-plugins-base
- - gstreamer-plugins-good
- - gstreamer-plugins-bad
- - gstreamer-plugins-ugly
+ - gst-plugins-base
+ - gst-plugins-good
+ - gst-plugins-bad
+ - gst-plugins-ugly
+
+Search via brew for the named packages
+``brew search gst``
 
 ### TODO
 
